@@ -1,0 +1,4 @@
+FROM matrixdotorg/synapse:v1.12.0
+ARG PYTHON_VERSION=3.7
+COPY  matrix-synapse-rest-password-provider/rest_auth_provider.py /usr/local/lib/python3.6/site-packages/rest_auth_provider.py
+COPY  matrix-synapse-rest-password-provider/rest_auth_provider.py /usr/local/lib/python3.7/site-packages/rest_auth_provider.py
