@@ -1,0 +1,3 @@
+[submodule "s3/synapse-s3-storage-provider"]
+	path = s3/synapse-s3-storage-provider
+	url = https://github.com/matrix-org/synapse-s3-storage-provider.git
